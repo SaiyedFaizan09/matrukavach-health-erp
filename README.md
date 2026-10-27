@@ -8,9 +8,9 @@ Built to eliminate preventable maternal mortality by unifying point-of-care clin
 
 To keep this guide clean and focused on getting you up and running, detailed system specifications have been separated into dedicated documents. **Please refer to these files to understand how MatruKavach works under the hood:**
 
-- 🏗️ **[System Architecture & Modules](./docs/ARCHITECTURE.md)**: Problem statement, Tech Stack, User Roles (RBAC), Clinical Decision Support System (CDSS), and Data Schemas.
-- 🔌 **[REST API Reference](./docs/API_REFERENCE.md)**: Complete backend endpoint documentation, authentication, and request payloads.
-- 📸 **[Application Screenshots](./screenshots/README.md)**: Visual walkthrough of the UI, daily camp workspace, and reporting modules.
+- 🏗️ **[System Architecture & Modules](./architecture_design.md)**: Problem statement, Tech Stack, User Roles (RBAC), Clinical Decision Support System (CDSS), and Data Schemas.
+- 🔌 **[REST API Reference](./api_reference.md)**: Complete backend endpoint documentation, authentication, and request payloads.
+- 📸 **[Application Screenshots](./screenshots_guide.md)**: Visual walkthrough of the UI, daily camp workspace, and reporting modules.
 
 ---
 
