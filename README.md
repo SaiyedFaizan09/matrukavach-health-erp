@@ -10,7 +10,6 @@ To keep this guide clean and focused on getting you up and running, detailed sys
 
 - 🏗️ **[System Architecture & Modules](./architecture_design.md)**: Problem statement, Tech Stack, User Roles (RBAC), Clinical Decision Support System (CDSS), and Data Schemas.
 - 🔌 **[REST API Reference](./api_reference.md)**: Complete backend endpoint documentation, authentication, and request payloads.
-- 📸 **[Application Screenshots](./screenshots_guide.md)**: Visual walkthrough of the UI, daily camp workspace, and reporting modules.
 
 ---
 
