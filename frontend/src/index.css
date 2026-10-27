@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #111827;
+  outline-offset: 0;
+}
+
+.sheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.sheet-table th,
+.sheet-table td {
+  border: 1px solid #111827;
+  padding: 4px 6px;
+  vertical-align: middle;
+}
+
+.sheet-table th {
+  background: #e4e4e7;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.sheet-table input,
+.sheet-table select {
+  width: 100%;
+  border: 1px solid #52525b;
+  background: #fff;
+  padding: 3px 4px;
+  font-size: 12px;
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid #111827;
+  padding: 1px 6px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.badge-critical {
+  background: #fecaca;
+  color: #7f1d1d;
+}
+
+.badge-moderate {
+  background: #fde68a;
+  color: #78350f;
+}
+
+.badge-normal {
+  background: #bbf7d0;
+  color: #14532d;
+}
+
+.row-yellow {
+  background: #fde047;
+  font-weight: 700;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-slip {
+    display: block !important;
+    width: 80mm;
+  }
+}
+
+@keyframes mk-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mk-spinner {
+  width: 36px;
+  height: 36px;
+  border: 4px solid #d4d4d8;
+  border-top-color: #111827;
+  border-radius: 50%;
+  animation: mk-spin 0.8s linear infinite;
+}
