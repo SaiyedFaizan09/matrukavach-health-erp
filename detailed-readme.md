@@ -832,9 +832,9 @@ Test the complete system using these realistic field workflows:
 ### Q3: How do I reset the database to a clean demo state?
 - Run:
   ```bash
-  npm run seed
+  npm run seed:clean
   ```
-  This drops existing collections and repopulates all demo mothers, stock ledgers, and accounts.
+  This runs `backend/seedClean.js`, removes demo beneficiaries, camp sheets, screening records, ambulance logs, and non-demo users, and preserves the six demo login accounts. It does not repopulate demo data.
 
 ---
 
